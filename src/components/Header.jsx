@@ -21,7 +21,7 @@ export const Header = () => {
             <div className="flex items-center gap-8">
                 <DarkMode />
                 <Link to={"/signup"}>
-                    <button className="btn btn-primary">Join Us</button>
+                    <button className="btn btn-primary" >Join Us</button>
                 </Link>
             </div>
         </div>

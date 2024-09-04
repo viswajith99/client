@@ -64,4 +64,48 @@ export const router = createBrowserRouter([
             },
         ],
     },
+    // {
+    //     path: "instructor",
+    //     element:  <UserLayout />  ,
+    //     children: [
+    //         {
+    //             path: "course",
+    //             element: <CreateCoursePage />,
+    //         },
+    //         {
+    //             path: "profile",
+    //             element: <createAssignment/>,
+    //         },
+    //         {
+    //             path: "my-learnings",
+    //             element: <CreateQuiz/>,
+    //         },
+    //         {
+    //             path: "",
+    //             element: <AddFeedback />,
+    //         },
+    //     ],
+    // },
+    // {
+    //     path: "admin",
+    //     element:  <AdminLayout />  ,
+    //     children: [
+    //         {
+    //             path: "course",
+    //             element: <CreateCoursePage />,
+    //         },
+    //         {
+    //             path: "profile",
+    //             element: <createAssignment/>,
+    //         },
+    //         {
+    //             path: "my-learnings",
+    //             element: <CreateQuiz/>,
+    //         },
+    //         {
+    //             path: "",
+    //             element: <AddFeedback />,
+    //         },
+    //     ],
+    // },
 ]);
